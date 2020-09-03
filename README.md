@@ -2,7 +2,7 @@
 esp watering module
 features:
 - controls servo valve
-- reads soil hummidity sensor
+- reads soil humidity sensor
 - sends messages via MQTT
 - has OTA enabled
 - uses deep sleep
