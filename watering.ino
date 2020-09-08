@@ -36,6 +36,10 @@ int value = 0;
 void setup()
 {
   uint32_t timeStamp = millis();
+  
+  // setup PWM
+  analogWriteRange(100);
+  analogWriteFreq(100); // ESP doesn support less than 100Hz
 
   pinMode(D6, INPUT_PULLUP);
 
